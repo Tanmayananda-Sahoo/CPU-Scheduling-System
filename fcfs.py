@@ -10,7 +10,6 @@ def fcfs(processes):
         p.arrival = p.arrival[0]
         p.waiting = p.waiting[0]
         p.burst = p.burst[0]
-        # p.turnaround = p.turnaround[0]
 
         if time < p.arrival:
             time = p.arrival
