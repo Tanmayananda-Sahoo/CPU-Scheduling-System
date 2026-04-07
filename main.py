@@ -24,6 +24,8 @@ def main():
     print("\nChoose Scheduling Algorithm")
     print("1. FCFS")
     print("2. Round Robin")
+    print("3. SJF")
+    print("4. Priority")
 
     choice = int(input("Enter choice: "))
 
@@ -33,6 +35,13 @@ def main():
     elif choice == 2:
         q = int(input("Enter Time Quantum: "))
         round_robin(processes, q)
+
+    elif choice==3:
+        sjf(processes)
+    
+    elif choice==4:
+        priority(processes)
+    
     else:
         print("Enter a valid choice.")
 
