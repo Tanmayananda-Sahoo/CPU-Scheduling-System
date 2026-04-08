@@ -1,34 +1,3 @@
-# from processDataStructure import Process
-# from fcfs import fcfs
-# from sjf import sjf
-# from roundRobin import round_robin
-# from priority import priority_sched
-
-
-# def create_processes():
-
-#     return [
-#         Process("P1",0,8,3),
-#         Process("P2",1,4,1),
-#         Process("P3",2,2,4),
-#         Process("P4",3,5,2)
-#     ]
-
-
-# def main():
-
-#     fcfs(create_processes())
-#     sjf(create_processes())
-#     round_robin(create_processes(),3)
-#     priority_sched(create_processes())
-
-
-# # if __name__ == "__main__":
-# #     main()
-
-# main()
-
-
 from process import Process
 from algorithms.fcfs import fcfs
 from algorithms.sjf import sjf
